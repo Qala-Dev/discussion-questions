@@ -4,25 +4,25 @@ https://github.com/lnbook/lnbook
 
 ## 1. Introduction
 
-1. Provide 3 fairness protocols. Feel free to draw from bitcoin (besides proof of work), but also from your other experiences In your experience, where have you seen fairness protocols breakdown?
-1. "Increasing block size shifts the cost to node operators and requires them to expend more resources to validate and store the blockchain" - if that is evident why were there blocksize wars in the first place.
+1. Provide 3 fairness protocols. Feel free to draw from bitcoin (besides proof of work), but also from your other experiences. In your experience, where have you seen fairness protocols breakdown?
+1. "Increasing block size shifts the cost to node operators and requires them to expend more resources to validate and store the blockchain" - if that is evident why were there blocksize wars in the first place?
     Wouldn't everyone agree this is a bad thing?
-1. "Lightning is not a separate token or coin, it is Bitcoin." one of the loudest critiques of lightning is that this is NOT true.
+1. "Lightning is not a separate token or coin, it is Bitcoin." One of the loudest critiques of lightning is that this is NOT true.
     Can you articulate why they think that lightning is not bitcoin?
 
 ## 2. Getting Started
 
-1. Open up one of the explorers as suggested in the reading. Note a few observations based on your immediate impression?"
-1. Does the term wallet accurately describe the set of functions users needs? How could using this term be helpful or confusing for a new lightning user?"
-1. If you are running your wallet off of a third-party Lightning node connected to a third-party Bitcoin node, with keys that are keys held by a third-party custodian, is this still a trustless system?"
-1. "The more well-connected a node is, the more people Alice can reach." Given this statement, what is the fastest way to become well connected to the network?"
+1. Open up one of the explorers as suggested in the reading. Note a few observations based on your immediate impression.
+1. Does the term wallet accurately describe the set of functions users needs? How could using this term be helpful or confusing for a new lightning user?
+1. If you are running your wallet off of a third-party Lightning node connected to a third-party Bitcoin node, with keys that are keys held by a third-party custodian, is this still a trustless system?
+1. "The more well-connected a node is, the more people Alice can reach." Given this statement, what is the fastest way to become well connected to the network?
 
 ## 4. Lightning Node Software
 
 1. What other full lightning node projects are there?
     Do you think it is beneficial to have more or less of these in a non-consensus network?
 1. Mastering Lightning demonstrates setting up nodes in docker for testing.
-    Is is safe to then use these docker nodes in production later?
+    Is it safe to then use these docker nodes in production later?
 
 ## 6. Architecture
 
@@ -52,7 +52,7 @@ https://github.com/lnbook/lnbook
 1. Alice pays Dylan through Bob and Carole. (A -> B -> C -> D). What happens if Carole reaches out to Alice and tells her the payment preimage that she received from Dylan, before telling Bob? In fact, why would she even tell Bob the preimage at all?
 1. What are the benefits and disadvantages of increasing/reducing the duration of the timelock in an HTLC?
     Why should you always ensure the timelock of an incoming HTLC is longer than the one of an outoing HTLC?
-1. If one node in the route decides to settle an HTLC on-chain, how does that affect the other nodes (both up- and downstream) to keep settling their HTLCs off-chain?
+1. If one node in the route decides to settle an HTLC on-chain, how does that affect the other nodes (both up and downstream) to keep settling their HTLCs off-chain?
 1. What is payment atomicity, and why is it so important and how is it achieved?
 1. How can an HTLC be revoked by the issuer before the timeout expires?
     What is the rationale behind that design decision (hint: think about how it affects other nodes in the routing path)?
@@ -67,7 +67,7 @@ https://github.com/lnbook/lnbook
 1. What are all the ways in which an HTLC output script can be spent? If Alice sent the HTLC to Bob, who is able to spend which paths?
 1. Alice sends a payment to Carole through Bob. After receiving the `update_fulfill_htlc` message from Carole, what prevents Bob from lying to Alice and claiming the payment failed, keeping the funds to himself?
 1. If Alice funded the channel between her and Bob, is Alice able to send HTLCs to Bob, and is Bob able to send HTLCs to Alice?
-1. HTLCs contain both a hash- and a timelock. Is the timelock absolute or relative? Which opcode is used to express this? Why do we use an opcode, instead of the nLockTime or nSequence fields?
+1. HTLCs contain both a hash and a timelock. Is the timelock absolute or relative? Which opcode is used to express this? Why do we use an opcode, instead of the `nLockTime` or `nSequence` fields?
 
 ## 12. Pathfinding and payment delivery
 

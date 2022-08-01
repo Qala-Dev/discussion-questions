@@ -27,7 +27,7 @@ Why will many bitcoin transactions include an output controlled by the sender, i
 
 What is a mining pool and why would someone belong to one?
 
-What is the status of a transaction that has not yet been included in a block, but has been propagated around the network? Why do some services require 6 confirmations to clear funds?"
+What is the status of a transaction that has not yet been included in a block, but has been propagated around the network? Why do some services require 6 confirmations to clear funds?
 
 What kind of privacy is there for transactions on a public ledger?
 
@@ -54,7 +54,7 @@ Bonus: What are some ways that private keys have been broken because of lack of 
 
 How do we know that the discrete log problem is hard to break?
 
-Bitcoin uses the elliptic curve over a finite field of primer order. What does that mean using common English terms? Why is the order prime?
+Bitcoin uses the elliptic curve over a finite field of prime order. What does that mean using common English terms? Why is the order prime?
 
 Why would we use Base58 for addresses rather than Base64? Would you make any modifications beyond Base58?
 
@@ -108,7 +108,7 @@ What would be a way to trick someone into revealing their private key by signing
 
 There is a bug in the CHECKMUTLISIG opcode. Why don't we just fix it?
 
-P2SH shifts the burden of fees and complexity from the sender to the spender? Why would you want to do this?
+P2SH shifts the burden of fees and complexity from the sender to the spender. Why would you want to do this?
 
 Timelocks (nlocktime) are used to lock funds until a certain time or blockheight after which they are valid. Is it possible to invalidate transactions after a certain time or blockheight?
 
@@ -118,7 +118,7 @@ Provide a scenario that you'd personally use a multisig transaction for.
 
 Do SPV nodes help or hurt the network?
 
-Bonus: How many nodes are on the Bitcoin network today.
+Bonus: How many nodes are on the Bitcoin network today?
 
 The Bitcoin Relay Network section describes multiple projects intended to reduce block propagation latency. Why is so much effort being put into this?
 
