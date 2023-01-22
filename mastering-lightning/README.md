@@ -9,6 +9,8 @@ https://github.com/lnbook/lnbook
     Wouldn't everyone agree this is a bad thing?
 1. "Lightning is not a separate token or coin, it is Bitcoin." One of the loudest critiques of lightning is that this is NOT true.
     Can you articulate why they think that lightning is not bitcoin?
+1. Lightning Network has already required a major softfork (SegWit) to allow it to function. It may require (or strongly benefit from) additional softforks (e.g. ANYPREVOUT) in the future. Since Lightning Network is only one of multiple approaches to scaling Bitcoin, is it reasonable to modify the L1 Bitcoin protocol?
+1. What are some use cases where Lightning Network can outperform existing payment networks? What are use cases where it (currently) underperforms? Can you think of some more relevant personas, in addition to the ones listed in the book?
 
 ## 2. Getting Started
 
