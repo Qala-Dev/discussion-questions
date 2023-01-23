@@ -19,6 +19,11 @@ https://github.com/lnbook/lnbook
 
 ## 3. How the Lightning Network Works
 
+1. Describe the lightning network in terms of channels. What is needed to setup a "Lightning Network?" Is there only one Lightning network?
+1. Which parts of the lightning network are public? Which parts are private? How could we improve the privacy?
+1. What data must a lightning node keep in order to route payments and protect themselves against loss of funds? As a node operator, how does this scale?
+1. Why is revoking a transaction in bitcoin tricky? Why can't we simply invalidate older channel states?
+1. Describe the differences between a bitcoin address and a lightning payment invoice. What are the security assumptions of a lightning invoice?
 1. Why can't we just increase the channel capacity by sending more funds to the 2-of-2 multisignature address of the funding transaction?
     What would need to change for this to even have a chance of working?
 1. What are some disadvantages of using the Lightning Network compared to using on-chain bitcoin?
