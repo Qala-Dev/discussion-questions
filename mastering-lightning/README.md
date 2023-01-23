@@ -22,7 +22,7 @@ https://github.com/lnbook/lnbook
 1. Why can't we just increase the channel capacity by sending more funds to the 2-of-2 multisignature address of the funding transaction?
     What would need to change for this to even have a chance of working?
 1. What are some disadvantages of using the Lightning Network compared to using on-chain bitcoin?
-1. Why are privacy and payment reliability said to be at odds with each other on the Lightning Network?
+1. Why are privacy and payment reliability said to be at odds with each other on the Lightning Network? If there is a trade-off to be made, where would you prefer the equilibrium to be?
 1. Should we be okay with more experimentation on the Lightning Network by different node implementations?
     Should we hold the stability of the network to the same standard as the Bitcoin network? Why or why not?
 
