@@ -16,6 +16,7 @@ https://github.com/lnbook/lnbook
 1. Does the term wallet accurately describe the set of functions users needs? How could using this term be helpful or confusing for a new lightning user?
 1. If you are running your wallet off of a third-party Lightning node connected to a third-party Bitcoin node, with keys that are keys held by a third-party custodian, is this still a trustless system?
 1. "The more well-connected a node is, the more people Alice can reach." Given this statement, what is the fastest way to become well connected to the network?
+1. In which ways is a Lightning wallet similar to an on-chain Bitcoin wallet? In which ways is it different?
 
 ## 3. How the Lightning Network Works
 
