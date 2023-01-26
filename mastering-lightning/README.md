@@ -40,6 +40,10 @@ https://github.com/lnbook/lnbook
     Do you think it is beneficial to have more or less of these in a non-consensus network?
 1. Mastering Lightning demonstrates setting up nodes in docker for testing.
     Is it safe to then use these docker nodes in production later?
+1. Do you think all companies developing on the lightning network should be required to open-source their Lightning apps?
+1. Do the different implementations of Lightning Network help or hurt Lightning Network and why?
+1. Are there ways to check the integrity of all the libraries used in this demo?
+
 
 ## 6. Architecture
 
