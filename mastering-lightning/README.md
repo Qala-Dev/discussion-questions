@@ -51,6 +51,8 @@ https://github.com/lnbook/lnbook
     Is it possible to choose to implement some of them differently, whilst remaining compatible with the wider lightning network?
 1. How does the Lightning Network layered architecture approach compare to that of the internet?
     What are some of the benefits of a layered architecture in general networks?
+1. Looking at the network connection layer in the diagram, why would we need all the different types of network I/O protocols? Which of the ones listed in the diagram is actually deprecated and unusable now?
+1. With your prior knowledge from Mastering Bitcoin, what is the purpose of DNS bootstrap? How does it help us connect to the lightning network and how what can you say about its trustlessness?
 1. Do you think it is ideal that the Lightning Network uses the internet protocol? Do you consider this an avenue for government censorship?
 
 
