@@ -51,6 +51,8 @@ https://github.com/lnbook/lnbook
     Is it possible to choose to implement some of them differently, whilst remaining compatible with the wider lightning network?
 1. How does the Lightning Network layered architecture approach compare to that of the internet?
     What are some of the benefits of a layered architecture in general networks?
+1. Do you think it is ideal that the Lightning Network uses the internet protocol? Do you consider this an avenue for government censorship?
+
 
 ## 7. Payment Channels
 
