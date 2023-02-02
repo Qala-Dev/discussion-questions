@@ -68,6 +68,8 @@ https://github.com/lnbook/lnbook
 1. The commitment transactions are "asymmetric". What does that mean, and why is that the case?
 1. Which signatures are exchanged in the `funding_created` and `funding_signed` messages? How is the funding transaction different from a commitment transaction?
 1. Why can't we keep the funding transaction off-chain until we close the channel?
+1. Do you think the `to_self_delay` value should be static or negotiated for every new channel and why?
+1. How does one verify that the signature provided by a channel partner for the first commitment transaction is valid?
 
 ## 8. Routing
 
