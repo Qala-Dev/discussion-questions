@@ -84,6 +84,9 @@ https://github.com/lnbook/lnbook
 1. What is payment atomicity, and why is it so important and how is it achieved?
 1. How can an HTLC be revoked by the issuer before the timeout expires?
     What is the rationale behind that design decision (hint: think about how it affects other nodes in the routing path)?
+1. “...This refers to the use of a cryptographic hash algorithm to commit to a randomly generated  secret.”
+    Does the pre-image have to be random? Can you draw parallels to a component of on-chain Bitcoin usage where we frequently require randomness?
+1. Which hash function is used to generate the payment hash? Could another function be used too, and if so - are there any limitations to which function(s) are possible? Do all the nodes along the routing path have to agree on the used hashing function?
 
 ## 9. Channel operation and payment forwarding
 
