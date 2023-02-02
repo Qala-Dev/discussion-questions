@@ -75,6 +75,7 @@ https://github.com/lnbook/lnbook
 
 1. What is the difference between routing and pathfinding?
     Who is responsible for these actions? Which one is part of LN's scaling model?
+1. Can a route involve multiple paths? How is this useful and is it used in the Lightning Network today?
 1. When is it dangerous to reuse a BOLT-11 invoice, and why?
 1. Alice pays Dylan through Bob and Carole. (A -> B -> C -> D). What happens if Carole reaches out to Alice and tells her the payment preimage that she received from Dylan, before telling Bob? In fact, why would she even tell Bob the preimage at all?
 1. What are the benefits and disadvantages of increasing/reducing the duration of the timelock in an HTLC?
