@@ -97,6 +97,8 @@ https://github.com/lnbook/lnbook
 1. If Alice funded the channel between her and Bob, is Alice able to send HTLCs to Bob, and is Bob able to send HTLCs to Alice?
 1. HTLCs contain both a hash and a timelock. Is the timelock absolute or relative? Which opcode is used to express this? Why do we use an opcode, instead of the `nLockTime` or `nSequence` fields?
 1. The `update_add_HTLC` message contains a `channel_id` field. Is this necessary? Isn't just having a channel available together enough, without necessarily specifying which one to use for the HTLC?
+1. An HTLC has one spending path that can be unlocked with the revocation key. When, over the lifetime of a channel, multiple HTLCs are added to a commitment transaction, do the HTLCs use different revocation keys or are they all the same?
+1. Why is the number of HTLCs capped at 483? Can you calculate this number yourself? Does the activation of Taproot affect this?
 
 ## 12. Pathfinding and payment delivery
 
