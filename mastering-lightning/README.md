@@ -112,6 +112,8 @@ https://github.com/lnbook/lnbook
 1. Maintaining a channel graph and performing pathfinding are computationally quite expensive. Could we offload that work to third parties? How would that impact an individual's privacy, security and ability to receive payments?
 1. In which ways does pathfinding rely on messages from the gossip protocol?
 1. Could a malicious actor lie about his channel's fees? How would that affect the network, and how can we assume it's not in his best interest to do so?
+1.  Compare a Multi-Path Payment (MPP) with a single payment. Assuming that `base_fee` and `fee_rate` are the same: how do the total fees compare? Is the fee assumption reasonable? In real life (without artificial assumptions), when will you consider one over the other?
+1. What are the differences between MPP and Atomic MPP? Is one strictly better than the other? What are the trade-offs?
 
 ## 15. Lightning payment requests
 
