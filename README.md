@@ -2,8 +2,6 @@
 
 Welcome to the **BTrust Builders** GitHub repository for discussion questions related to the following courses. This repository is designed to facilitate meaningful discussions and enhance your understanding of key concepts.
 
-## Courses
-
 1. **Mastering Bitcoin - Discussion Questions**
    - Explore and engage in discussions here : [Mastering Bitcoin Discussion Questions](https://github.com/richarddushime/discussion-questions/blob/main/mastering-bitcoin/README.md)
 
@@ -16,5 +14,3 @@ Welcome to the **BTrust Builders** GitHub repository for discussion questions re
 Happy learning and engaging discussions! 🚀✨
 
 Brought to you by **Btrust Builders**
-
-
