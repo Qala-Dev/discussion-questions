@@ -2,7 +2,7 @@
 
 These questions are based on the Mastering Bitcoin Book, 2nd edition (2017) ([repo](https://github.com/bitcoinbook/bitcoinbook), various PDFs can be found on GitHub). It's a little outdated, but it's a great resource. Enjoy!
 
-## Chapter 1
+## [Chapter 1](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01.asciidoc)
 
 Why doesn't bitcoin have a hierarchical network?
 
@@ -17,7 +17,7 @@ Do you think it would be better if bitcoin transactions were reversible?
 Do you believe that bitcoin needs to be competitive with visa/mastercard to succeed?
 
 
-## Chapter 2
+## [Chapter 2](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch02.asciidoc)
 
 What are transaction inputs and outputs and what do they have to do with the transfer of value?
 
@@ -32,7 +32,7 @@ What is the status of a transaction that has not yet been included in a block, b
 What kind of privacy is there for transactions on a public ledger?
 
 
-## Chapter 3
+## [Chapter 3](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch03.asciidoc)
 
 What are Bitcoin Improvement Proposals (BIPs) and what role do they play in determining the Bitcoin protocol?
 
@@ -42,7 +42,7 @@ What are some common reasons you would run your own full node?
 
 What is the difference between a pruned node and a full (AKA archival) node?
 
-## Chapter 4
+## [Chapter 4](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc)
 
 What is the relationship between private keys, signatures, and witnesses?
 
@@ -67,7 +67,7 @@ What is the difference between P2PKH and P2SH?
 What is the difference between a hot wallet and cold storage?
 
 
-## Chapter 5
+## [Chapter 5](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch05.asciidoc)
 
 Why does address re-use reduce privacy? Can you think of other de-anonymizing missteps that might happen due to bad user-experience design or lack of privacy education?
 
@@ -81,7 +81,7 @@ What are the 3 items needed to generate children keys from a parent key? Is ther
 
 What are the differences between a hardened parent key and a normal parent key?
 
-## Chapter 6
+## [Chapter 6](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc)
 
 When people refer to the bitcoin ledger or a wallet that displays a received bitcoin balance, what is actually being monitored to come up with those numbers?
 
@@ -104,7 +104,7 @@ What are SIGHASH flags and how can they be used?
 What would be a way to trick someone into revealing their private key by signing two things?
 
 
-## Chapter 7
+## [Chapter 7](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07.asciidoc)
 
 There is a bug in the CHECKMUTLISIG opcode. Why don't we just fix it?
 
@@ -114,7 +114,7 @@ Timelocks (nlocktime) are used to lock funds until a certain time or blockheight
 
 Provide a scenario that you'd personally use a multisig transaction for.
 
-## Chapter 8
+## [Chapter 8](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch08.asciidoc)
 
 Do SPV nodes help or hurt the network?
 
@@ -131,7 +131,7 @@ Bonus: What is TOR and how does it provide privacy?
 What happened to the original proposal to add p2p encryption (BIP150/151)?
 
 
-## Chapter 9
+## [Chapter 9](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch09.asciidoc)
 
 The genesis block contains a hidden message within it. What OP_CODE is used to this and what are some other examples of this OP_CODE being used? Do you think superfluous data should be allowed in the blockchain?
 
@@ -142,7 +142,7 @@ What is signet and how is it different than testnet and regtest?
 Bonus: Bloom filters have some problems, how are block filters better?
 
 
-## Chapter 10
+## [Chapter 10](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch10.asciidoc)
 
 How does mining solve the Byzantine Generals Problem?
 
@@ -166,7 +166,7 @@ What prevents miners from signaling that they will support an upgrade but later 
 
 Upgrades have become increasingly more difficult to get merged and accepted by the community. Should we make it easier? If so, how?
 
-## Chapter 11
+## [Chapter 11](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch11.asciidoc)
 
 Bitcoin's security relies on decentralized control over keys and on independent transaction validation by miners. Are there instances when centralization might be appropriate or even encouraged?
 
@@ -174,7 +174,7 @@ How do developers of the protocol fit into the trust model? What safeguards are 
 
 How can we protect ourselves from the thousands of software components that run on our personal computers?
 
-## Chapter 12
+## [Chapter 12](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch12.asciidoc)
 
 What do you see as the biggest weakness of the Lightning Network?
 
